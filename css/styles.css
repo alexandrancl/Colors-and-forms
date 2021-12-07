@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
+
+*{
+    margin: 10px;
+    border: 0px;
+    padding: 0px;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+body{
+    background-image: url(../img/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.form{
+    width: 30%;
+    height: 90vh;
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0em 3em 0em 3em;
+}
+
+input{
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    border-radius: 7px;
+    outline: 0px;
+}
+
+select{
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    border-radius: 7px;
+    outline: 0px;
+}
+
+.color{
+    padding: 5px 10px 5px 10px;
+    border-radius: 7px;
+    outline: 0px;
+}
+
+button{
+    background-color: rgb(211, 154, 211);
+    padding: 4px 3px 4px 3px;
+    width: 40%;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.screen{
+    width: 70%;
+    height: 90vh;
+    background-color: rgb(206, 206, 206);
+}
+
+.pizarra{
+    background-color: white;
+    height: 83vh;
+    margin: 30px;
+}
